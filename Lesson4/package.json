@@ -1,0 +1,24 @@
+{
+  "name": "comp125-s2018-lesson4a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CentennialCollege/COMP125-S2018-Lesson4A.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CentennialCollege/COMP125-S2018-Lesson4A/issues"
+  },
+  "homepage": "https://github.com/CentennialCollege/COMP125-S2018-Lesson4A#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}

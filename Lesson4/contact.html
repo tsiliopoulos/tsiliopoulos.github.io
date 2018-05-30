@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>COMP125 - Contact</title>
+  <!-- CSS Section -->
+  <!--
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  -->
+  <link rel="stylesheet" href="./Content/bootstrap-cerulean.min.css">
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./Content/app.css">
+</head>
+
+<body>
+  <!-- Main Nav -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">
+      <img src="./Assets/images/Logo3.png" width="50" height="50" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">
+            <i class="fa fa-home fa-lg"></i> Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">
+            <i class="fa fa-info-circle fa-lg"></i> About
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./contact.html">
+            <i class="fa fa-comment fa-lg"></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Contact Form -->
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7">
+        <div class="card">
+          <div class="card-header  text-white bg-primary mb-3">
+            <h1 class="card-title">Contact Us</h1>
+          </div>
+          
+
+
+          <div class="card-body">
+              <h4 class="card-subtitle mb-2 text-muted">* All Fields are Required</h4>
+            <form>
+              <div class="form-group">
+                <label for="FullName">Full Name</label>
+                <input type="text" class="form-control form-control-lg" id="FullName" name="FullName" placeholder="Enter Your Name" required>
+              </div>
+
+              <div class="form-group">
+                <label for="ContactNumber">Contact Number</label>
+                <input type="text" class="form-control form-control-lg" id="ContactNumber" name="ContactNumber" placeholder="Enter Your Contact Number" required>
+              </div>
+
+              <div class="form-group">
+                <label for="EmailAddress">Email address</label>
+                <input type="email" class="form-control form-control-lg" id="EmailAddress" name="EmailAddress" placeholder="Enter Your Email Address" required>
+              </div>
+
+              <div class="form-group">
+                <label for="Message">Enter Message</label>
+                <textarea class="form-control form-control-lg" id="Message" name="Message" rows="3" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg">Send</button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- JavaScript Section -->
+  <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="./Scripts/app.js"></script>
+</body>
+
+</html>
