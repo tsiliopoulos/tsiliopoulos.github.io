@@ -1,24 +1,25 @@
 {
-  "name": "comp125-s2018-lesson3a",
+  "name": "comp397-s2018-lesson6",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CentennialCollege/COMP125-S2018-Lesson3A.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CentennialCollege/COMP125-S2018-Lesson3A/issues"
-  },
-  "homepage": "https://github.com/CentennialCollege/COMP125-S2018-Lesson3A#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1",
-    "font-awesome": "^4.7.0",
-    "jquery": "^3.3.1"
+    "easeljs": "^1.0.2",
+    "preloadjs": "^1.0.1",
+    "soundjs": "^1.0.1",
+    "tweenjs": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/easeljs": "^1.0.0",
+    "@types/preloadjs": "^0.6.32",
+    "@types/soundjs": "^0.6.27",
+    "@types/stats.js": "^0.17.0",
+    "@types/tweenjs": "^1.0.0",
+    "stats.js": "^0.17.0"
   }
 }
